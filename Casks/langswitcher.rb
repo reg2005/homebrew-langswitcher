@@ -1,9 +1,9 @@
 cask "langswitcher" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.0.0"
-  sha256 arm:   "c46be859ada3af22d31915ae51056b545a03ee920581dbdf2b0a8e5e13a20da6",
-         intel: "11c99cb866803fc95f9023e8dfbdbee0884f064507475ec25936e6a622a4984d"
+  version "1.1.0"
+  sha256 arm:   "672cb60d1461ae7cfe22d302b2169c5e599f229f033e067bb0af1ff8d4b86252",
+         intel: "742a8634c6a760555a437e739a2f65fffcfe8ce73b4ab146ef2590178e121d21"
 
   url "https://github.com/reg2005/langSwitcher/releases/download/v#{version}/LangSwitcher-#{version}-#{arch}.zip"
   name "LangSwitcher"
